@@ -1,0 +1,15 @@
+// .devcontainer/devcontainer.json
+{
+  "name": "Go Development",
+  "image": "mcr.microsoft.com/devcontainers/go:latest",
+  "extensions": [
+    "golang.go",
+    "github.github-vscode-theme",
+    "github.copilot"
+
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
+
